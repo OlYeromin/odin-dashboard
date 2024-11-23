@@ -1,5 +1,26 @@
 body {
+    display: grid;
     width: 100vw;
     height: 100vh;
     margin: 0px;
+    grid-template-areas:
+        "side head"
+        "side main";
+    grid-template-columns: 1fr 5fr; 
+    grid-template-rows: 1fr 5fr;
+}
+
+div#sidebar {
+    grid-area: side;
+    background-color: #ea580c;
+}
+
+div#header {
+    grid-area: head;
+    background-color: blanchedalmond;
+}
+
+main {
+    grid-area: main;
+    background-color: gainsboro;
 }
