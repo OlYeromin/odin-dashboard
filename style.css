@@ -34,6 +34,20 @@ main {
 
 div#projects {
     grid-area: projects;
+
+    display: grid;
+    grid-template-rows: 10ch repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+}
+
+div#projects > h2 {
+    grid-column: span 2;
+}
+
+div.project-card {
+    width: 50ch;
+    border: 1px solid brown;
 }
 
 div#announcements {
