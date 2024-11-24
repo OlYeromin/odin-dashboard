@@ -23,4 +23,23 @@ div#header {
 main {
     grid-area: main;
     background-color: gainsboro;
+    
+    display: grid;
+    grid-template-areas: 
+        "projects announcements"
+        "projects trending";
+    grid-template-columns: 3fr 1fr; 
+    grid-template-rows: 2fr 2fr;
+}
+
+div#projects {
+    grid-area: projects;
+}
+
+div#announcements {
+    grid-area: announcements;
+}
+
+div#trending {
+    grid-area: trending;
 }
