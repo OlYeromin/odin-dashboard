@@ -23,7 +23,7 @@ div#sidebar {
 
 div#logo {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 3em 1fr;
     font-weight: bold;
 }
 
