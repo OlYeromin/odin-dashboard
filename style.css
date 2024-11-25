@@ -34,9 +34,13 @@ div#logo {
     font-weight: bold;
 }
 
+div#sidebar svg {
+    height: 1em;
+    fill: white;
+}
+
 div#logo > svg {
     height: 3em;
-    fill: white;
 }
                 /*This should be optimized somehow*/
 div#logo > span {
@@ -55,11 +59,6 @@ div#nav-links > div {
 div#header {
     grid-area: head;
     background-color: blanchedalmond;
-}
-
-div#nav-links svg {
-    height: 1em;
-    fill: white;
 }
 
 main {
