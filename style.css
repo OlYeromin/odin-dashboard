@@ -38,7 +38,7 @@ div#logo > svg {
     height: 3em;
     fill: white;
 }
-
+                /*This should be optimized somehow*/
 div#logo > span {
     align-self: center;
 }
@@ -47,9 +47,19 @@ div#nav-links {
     grid-area: navlinks;
 }
 
+div#nav-links > div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
 div#header {
     grid-area: head;
     background-color: blanchedalmond;
+}
+
+div#nav-links svg {
+    height: 1em;
+    fill: white;
 }
 
 main {
