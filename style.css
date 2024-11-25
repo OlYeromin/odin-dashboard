@@ -15,13 +15,20 @@ body {
 
 div#sidebar {
     grid-area: side;
+
     background-color: #ea580c;
     font-size: 26px;
     color: white;
+
+    display: grid;
+    grid-template-areas: 
+        "logo"
+        "navlinks";
+    grid-template-rows: max-content 1fr;
 }
 
-
 div#logo {
+    grid-area: logo;
     display: grid;
     grid-template-columns: 3em 1fr;
     font-weight: bold;
@@ -34,6 +41,10 @@ div#logo > svg {
 
 div#logo > span {
     align-self: center;
+}
+
+div#nav-links {
+    grid-area: navlinks;
 }
 
 div#header {
