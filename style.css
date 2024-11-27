@@ -110,3 +110,13 @@ div#announcements {
 div#trending {
     grid-area: trending;
 }
+
+button {
+    background: none;
+    border: none;
+}
+
+#search-button svg {
+    width: 25px;
+    height: 25px;
+  }
