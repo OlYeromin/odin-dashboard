@@ -83,6 +83,16 @@ div#header {
 
 form {
     grid-area: search;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+input {
+    border: none;
+    height: 40%;
+    border-radius: 20px;
 }
 
 div#account {
@@ -136,11 +146,12 @@ div#trending {
 }
 
 button {
+    height: 40%;
     background: none;
     border: none;
 }
 
 #search-button svg {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
