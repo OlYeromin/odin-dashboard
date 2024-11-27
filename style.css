@@ -71,6 +71,8 @@ div.nav-link > svg {
 div#header {
     grid-area: head;
     background-color: blanchedalmond;
+    font-size: 26px;
+    padding: 0.5em 2em;
 
     display: grid;
     grid-template-areas:
