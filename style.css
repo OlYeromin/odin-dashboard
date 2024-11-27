@@ -57,6 +57,10 @@ div#nav-links > div {
     grid-template-columns: 3em 1fr;
 }
 
+div.nav-link > svg {
+    place-self: center;
+}
+
 div#header {
     grid-area: head;
     background-color: blanchedalmond;
