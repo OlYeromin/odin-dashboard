@@ -97,6 +97,19 @@ input {
 
 div#account {
     grid-area: account;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+}
+
+div.avatar-container {
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
 }
 
 div#greet {
@@ -151,7 +164,7 @@ button {
     border: none;
 }
 
-#search-button svg {
+div#header svg {
     width: 30px;
     height: 30px;
   }
