@@ -50,11 +50,18 @@ div#logo > span {
 
 div#nav-links {
     grid-area: navlinks;
+
+    padding-top: 1em;
 }
 
 div#nav-links > div {
     display: grid;
     grid-template-columns: 3em 1fr;
+    padding-top: 0.5em;
+}
+
+div#nav-links > div:nth-last-child(3) {
+    padding-top: 2em;
 }
 
 div.nav-link > svg {
