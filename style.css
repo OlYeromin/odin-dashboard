@@ -19,6 +19,7 @@ div#sidebar {
     background-color: #ea580c;
     font-size: 26px;
     color: white;
+    padding: 1em;
 
     display: grid;
     grid-template-areas: 
@@ -42,7 +43,7 @@ div#sidebar svg {
 div#logo > svg {
     height: 3em;
 }
-                /*This should be optimized somehow*/
+
 div#logo > span {
     align-self: center;
 }
@@ -53,7 +54,7 @@ div#nav-links {
 
 div#nav-links > div {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 3em 1fr;
 }
 
 div#header {
