@@ -71,6 +71,28 @@ div.nav-link > svg {
 div#header {
     grid-area: head;
     background-color: blanchedalmond;
+
+    display: grid;
+    grid-template-areas:
+        "search account"
+        "greeting card-operations";
+    grid-template-columns: 3fr 2fr;
+}
+
+form {
+    grid-area: search;
+}
+
+div#account {
+    grid-area: account;
+}
+
+div#greet {
+    grid-area: greeting;
+}
+
+div#card-operations {
+    grid-area: card-operations;
 }
 
 main {
