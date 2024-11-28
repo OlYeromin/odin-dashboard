@@ -164,6 +164,8 @@ div#greet > h1 {
 div#card-operations {
     grid-area: card-operations;
 
+    margin-left: 5%;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 75px;
