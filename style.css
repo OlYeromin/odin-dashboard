@@ -14,6 +14,8 @@ body {
 }
 
 div#sidebar {
+    z-index: 3;
+    
     grid-area: side;
 
     background-color: #ea580c;
@@ -69,6 +71,8 @@ div.nav-link > svg {
 }
 
 div#header {
+    z-index: 2;
+
     grid-area: head;
     background-color: blanchedalmond;
     font-size: 26px;
@@ -188,6 +192,8 @@ div#card-operations > button:hover {
 }
 
 main {
+    z-index: 1;
+
     grid-area: main;
     background-color: gainsboro;
     display: grid;
