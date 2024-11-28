@@ -97,16 +97,31 @@ input {
 
 div#account {
     grid-area: account;
+    justify-self: end;
 
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-areas: 
+        "notification avatar name";
+    grid-template-columns:  min-content min-content max-content;
+    gap: 30px;
     align-items: center;
 }
 
-img {
-    height: 100px;
-    width: 100px;
+div#notification {
+    grid-area: notification;
+}
+
+div#account > img {
+    grid-area: avatar;
+    height: 75px;
+    width: 75px;
     border-radius: 100%;
+    justify-self: center;
+}
+
+div#account > p {
+    grid-area: name;
+    font-weight: bold;
 }
 
 div#greet {
