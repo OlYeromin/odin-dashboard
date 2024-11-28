@@ -126,6 +126,26 @@ div#account > p {
 
 div#greet {
     grid-area: greeting;
+
+    display: grid;
+    grid-template-areas:
+        "avatar hello"
+        "avatar name";
+    grid-template-columns: min-content auto;
+}
+
+div#greet > img {
+    grid-area: avatar;
+    height: 100px;
+    width: 100px;
+}
+
+div#greet > p {
+    grid-area: hello;
+}
+
+div#greet > h1 {
+    grid-area: name;
 }
 
 div#card-operations {
