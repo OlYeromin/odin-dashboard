@@ -163,6 +163,11 @@ div#greet > h1 {
 
 div#card-operations {
     grid-area: card-operations;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 75px;
+    align-items: center;
 }
 
 main {
