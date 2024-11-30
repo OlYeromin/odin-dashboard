@@ -193,6 +193,7 @@ div#card-operations > button:hover {
 
 main {
     z-index: 1;
+    padding: 1em 2em;
 
     grid-area: main;
     background-color: gainsboro;
