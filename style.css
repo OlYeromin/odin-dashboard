@@ -233,6 +233,10 @@ div.project-card {
     padding: 2ch;
     background: linear-gradient(90deg, #fdba74 2%, white 2%);
     box-shadow: 2px 3px 5px gray;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 div.project-card > h3 {
@@ -242,6 +246,7 @@ div.project-card > h3 {
 div.project-card > p {
     margin-top: 5px;
     color: grey;
+    margin-bottom: auto;
 }
 
 div.card-operations {
