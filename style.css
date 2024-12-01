@@ -244,6 +244,17 @@ div.project-card > p {
     color: grey;
 }
 
+div.card-operations {
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.card-operations svg {
+    width: 30px;
+    height: 30px;
+}
+
 div#announcements {
     grid-area: announcements;
 }
