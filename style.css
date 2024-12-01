@@ -23,7 +23,8 @@ div#sidebar {
     background-color: #ea580c;
     font-size: 26px;
     color: white;
-    padding: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
 
     display: grid;
     grid-template-areas: 
