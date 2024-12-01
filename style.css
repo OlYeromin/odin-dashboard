@@ -211,7 +211,8 @@ div#projects {
     display: grid;
     grid-template-rows: min-content;
     grid-auto-rows: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(36ch, 1fr));
+    justify-items: stretch;
     grid-auto-flow: row;
     
     gap: 40px;
@@ -219,15 +220,12 @@ div#projects {
 }
 
 div#projects > h2 {
-    grid-column: span 2;
+    grid-column: 1 / -1;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
 div.project-card {
-    min-width: 15ch;min-width: 15ch;
-    max-width: 36ch;
-    /*border: 1px solid brown;*/
     border-radius: 10px;
     padding: 2ch;
     background: linear-gradient(90deg, #fdba74 2%, white 2%);
