@@ -302,6 +302,7 @@ div.trendy-msg {
         "avatar trendy-name";
     grid-template-columns: min-content auto;
     margin-top: 20px;
+    margin-left: 1ch;
 }
 
 div.trendy-msg:first-child {
