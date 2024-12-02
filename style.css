@@ -243,12 +243,12 @@ div.project-card {
     flex-direction: column;
 }
 
-div.project-card > h3 {
-    margin-bottom: 0;
+main h3 {
+    margin-bottom: 5px;
 }
 
 div.project-card > p {
-    margin-top: 5px;
+    margin-top: 0px;
     color: grey;
     margin-bottom: auto;
 }
@@ -288,6 +288,7 @@ div.non-project-container > div:first-child {
 
 div.announcement > p {
     color: grey;
+    margin-top: 0;
 }
 
 div#trending {
