@@ -295,6 +295,40 @@ div#trending {
     grid-area: trending;
 }
 
+div.trendy-msg {
+    display: grid;
+    grid-template-areas: 
+        "avatar trendy-project"
+        "avatar trendy-name";
+    grid-template-columns: min-content auto;
+    margin-top: 20px;
+}
+
+div.trendy-msg:first-child {
+    margin-top: 0;
+}
+
+div.trendy-msg > img {
+    grid-area: avatar;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    align-self: center;
+    margin-right: 20px;
+}
+
+div.trendy-msg > h3 {
+    grid-area: trendy-project;
+    align-self: end;
+    margin-top: 0;
+}
+
+div.trendy-msg > p {
+    grid-area: trendy-name;
+    margin: 0px;
+    align-self: start;
+}
+
 button {
     height: 40%;
     background: none;
