@@ -218,7 +218,7 @@ div#projects {
     justify-items: stretch;
     grid-auto-flow: row;
     
-    gap: 40px;
+    column-gap: 40px;
     padding-right: 40px;
 }
 
@@ -233,6 +233,7 @@ div.project-card {
     padding: 2ch;
     background: linear-gradient(90deg, #fdba74 2%, white 2%);
     box-shadow: 2px 3px 5px gray;
+    margin-bottom: 40px;
 
     display: flex;
     justify-content: space-between;
