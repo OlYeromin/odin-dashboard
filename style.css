@@ -101,6 +101,8 @@ input {
     border: none;
     height: 40%;
     border-radius: 20px;
+    padding: 0px 1.5ch;
+    font-size: 75%;
 }
 
 div#account {
