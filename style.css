@@ -265,6 +265,33 @@ div#announcements {
     grid-area: announcements;
 }
 
+div#announcements > h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+div.non-project-container {
+    border-radius: 10px;
+    padding: 2ch;
+    background: white;
+    box-shadow: 2px 3px 5px gray;
+
+    display: grid;
+}
+
+div.announcement {
+    border-top: solid grey 1px;
+    margin: 0px 2ch;
+}
+
+div.non-project-container > div:first-child {
+    border-top: none;
+}
+
+div.announcement > p {
+    color: grey;
+}
+
 div#trending {
     grid-area: trending;
 }
